@@ -1,0 +1,43 @@
+.item {
+  border: 1px solid #222;
+  padding: 1rem;
+  border-radius: 10px;
+  position: relative;
+
+  .link {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: flex-end;
+    column-gap: 3px;
+    line-height: 1;
+    color: #222;
+  }
+}
+
+.title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 1rem;
+}
+
+.image {
+  width: 100%;
+}
+
+.description {
+  padding-bottom: 2.5rem;
+  font-size: 13px;
+}
+
+.icon {
+  height: 0.7rem;
+}
